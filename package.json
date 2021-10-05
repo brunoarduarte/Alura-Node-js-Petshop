@@ -1,0 +1,34 @@
+{
+  "name": "petshop_api",
+  "version": "1.0.0",
+  "description": "API desenvolvida no modulo de NODE.js da ALURA",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoarduarte/Alura-Node.js.git"
+  },
+  "author": "Bruno Duarte <brunoarduarte@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoarduarte/Alura-Node.js/issues"
+  },
+  "homepage": "https://github.com/brunoarduarte/Alura-Node.js#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "dayjs": "^1.10.7",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "my": "^0.3.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
